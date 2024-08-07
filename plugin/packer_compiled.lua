@@ -179,21 +179,6 @@ _G.packer_plugins = {
     path = "/Users/ayoomotosho/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
-  ["nvim-dap"] = {
-    loaded = true,
-    path = "/Users/ayoomotosho/.local/share/nvim/site/pack/packer/start/nvim-dap",
-    url = "https://github.com/mfussenegger/nvim-dap"
-  },
-  ["nvim-dap-ui"] = {
-    loaded = true,
-    path = "/Users/ayoomotosho/.local/share/nvim/site/pack/packer/start/nvim-dap-ui",
-    url = "https://github.com/rcarriga/nvim-dap-ui"
-  },
-  ["nvim-dap-virtual-text"] = {
-    loaded = true,
-    path = "/Users/ayoomotosho/.local/share/nvim/site/pack/packer/start/nvim-dap-virtual-text",
-    url = "https://github.com/theHamsta/nvim-dap-virtual-text"
-  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/Users/ayoomotosho/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
@@ -240,6 +225,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/ayoomotosho/.local/share/nvim/site/pack/packer/start/promise-async",
     url = "https://github.com/kevinhwang91/promise-async"
+  },
+  ["tailwind-tools.nvim"] = {
+    loaded = true,
+    path = "/Users/ayoomotosho/.local/share/nvim/site/pack/packer/start/tailwind-tools.nvim",
+    url = "https://github.com/luckasRanarison/tailwind-tools.nvim"
   },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,

@@ -32,7 +32,8 @@ return packer.startup(function(use)
 	use("wbthomason/packer.nvim")
 
 	-- use({ "rcarriga/nvim-dap-ui", requires = { "mfussenegger/nvim-dap" } })
-	
+
+	use({ "luckasRanarison/tailwind-tools.nvim" })
 
 	-- github copilot
 	use("github/copilot.vim")
