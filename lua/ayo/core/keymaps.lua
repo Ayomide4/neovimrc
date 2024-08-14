@@ -9,6 +9,12 @@ keymap.set("n", "<leader>nh", ":nohl<CR>")
 
 keymap.set("n", "x", '"_x')
 
+keymap.set("n", "H", "^") -- move to the beginning of the line
+keymap.set("n", "L", "$") -- move to the end of the line
+
+keymap.set("v", "H", "^") -- move to the beginning of the line
+keymap.set("v", "L", "$") -- move to the end of the line
+
 -- increment number
 keymap.set("n", "<leader>+", "<C-a>")
 keymap.set("n", "<leader>-", "<C-x>")
@@ -45,9 +51,7 @@ keymap.set("n", "<leader>fb", "<cmd>Telescope buffers<cr>")
 keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>")
 
 -- auto-save
-keymap.set("n", "<leader>n", ":ASToggle<CR>")
-
---comment plugin keybings
+keymap.set("n", "<leader>n", ":ASToggle<CR>") --comment plugin keybings
 --comment line: gcc
 --comment multiple: gc + number + motion
 
