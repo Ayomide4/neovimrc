@@ -15,6 +15,8 @@ keymap.set("n", "L", "$") -- move to the end of the line
 keymap.set("v", "H", "^") -- move to the beginning of the line
 keymap.set("v", "L", "$") -- move to the end of the line
 
+keymap.set("n", "oo", "o<Esc>k") -- insert new line
+
 -- increment number
 keymap.set("n", "<leader>+", "<C-a>")
 keymap.set("n", "<leader>-", "<C-x>")

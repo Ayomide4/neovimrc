@@ -54,6 +54,7 @@ return packer.startup(function(use)
 		end,
 	})
 
+	use("mfussenegger/nvim-jdtls")
 	use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
 
 	use("szw/vim-maximizer") -- maximizes and restores current window
