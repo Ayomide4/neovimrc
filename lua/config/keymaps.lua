@@ -13,3 +13,5 @@ vim.keymap.set("n", "<leader>tp", ":bprevious<CR>", { noremap = true, silent = t
 
 vim.keymap.set("n", "H", "^") -- move to the beginning of the line
 vim.keymap.set("n", "L", "$") -- move to the end of the line
+
+vim.keymap.set("t", "jk", "<C-\\><C-n>", { noremap = true, silent = true })
